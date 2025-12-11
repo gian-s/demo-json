@@ -1,0 +1,29 @@
+{
+    "users": [
+  {
+    "id": "user:1",
+    "username": "gsirio",
+    "firstName": "Giancarlo",
+    "lastName": "Sirio",
+    "dateOfBirth": "1971-01-15",
+    "gender": "MALE"
+  } 
+],
+
+"recommendedProducts": [
+    {
+  "product:1": [
+    { "id": "product:3", "title": "Bose QuietComfort 35 II Headphones", "price": 199.99 },
+    { "id": "product:4", "title": "Apple Watch", "price": 299.99 }
+  ]
+
+}
+],
+
+"subscriptionLevel": [
+    {
+  "user:1": { "level": "PREMIUM", "expiresOn": "2025-12-31" }
+    }
+  ]
+
+}
