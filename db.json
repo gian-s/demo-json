@@ -20,10 +20,19 @@
 }
 ],
 
-"subscriptionLevel": [
-    {
-  "user:1": { "level": "PREMIUM", "expiresOn": "2025-12-31" }
-    }
-  ]
+"paymentMethods": [
+                {
+                    "id": "paymentMethod:84927510",
+                    "name": "VISA ending in 1234",
+                    "type": "CREDIT_CARD",
+                    "isMain": true
+                },
+                {
+                    "id": "paymentMethod:2",
+                    "name": "MasterCard ending in 5678",
+                    "type": "CREDIT_CARD",
+                    "isMain": false
+                }
+            ]
 
 }
